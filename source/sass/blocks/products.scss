@@ -1,0 +1,31 @@
+.products {
+    padding-top: 50px;
+    padding-bottom: 32px;
+    margin: 0 auto;
+    background: url("../../images/ice_bg.jpg") center (center/cover) no-repeat;
+}
+
+.products__title {
+
+    color: #00519C;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.products__text {
+    max-width: 717px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    max-width: 717px;
+    padding-bottom: 23px;
+    margin: 0 auto;
+}
+
+.products__catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

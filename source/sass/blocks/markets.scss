@@ -1,0 +1,23 @@
+.markets {
+    padding: 75px 0 110px 0;
+}
+
+.markets__inner {
+    display: flex;
+}
+
+.markets__title {
+    text-align: center;
+    padding-bottom: 29px;
+    color: #00519C;
+}
+
+.markets__info {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    margin-left: 37px;
+    color: #000000;
+}

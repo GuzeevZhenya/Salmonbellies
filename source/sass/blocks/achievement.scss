@@ -1,0 +1,21 @@
+.achievement__item {
+    margin-right: 58px;
+}
+
+.achievement__img {
+    vertical-align: top;
+}
+
+.achievement__img img {
+    vertical-align: top;
+}
+
+.achievement__text {
+    @include font-text(12px, 24px, 500);
+    max-width: 262px;
+    color: #00519C;
+}
+
+.receipes__item-img {
+    padding-bottom: 18px;
+}
