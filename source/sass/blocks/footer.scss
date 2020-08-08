@@ -13,11 +13,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 42%;
+    width: 47%;
 }
 
 .footer__information {
-    width: 42%;
+    width: 47%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,6 +63,10 @@
     color: #00519C;
 }
 
+.footer__icons {
+    display: flex;
+}
+
 .footer__icons img {
     width: 41px;
     height: 41px;
@@ -70,12 +74,7 @@
 }
 
 .footer__copyright {
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 30px;
-    /* or 231% */
-
-
+    @include font-text(13px, 30px, normal);
+    max-weight: 352px;
     color: #000000;
-
 }

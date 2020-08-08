@@ -8,6 +8,11 @@
     margin: 0 0 29px 0;
 }
 
+.catalog__item:hover {
+    transform: translateY(-15px);
+    transition: transform 0.5 ease;
+}
+
 .catalog__item h2 {
     @include font-text(14px, 24px, 600);
     max-width: 187px;
