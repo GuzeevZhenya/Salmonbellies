@@ -13,11 +13,12 @@
 }
 
 .markets__info {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
+    @include font-text(14px, 24px, normal);
     margin-left: 37px;
     color: #000000;
+}
+
+.markets__img img {
+    width: 518px;
+    height: 371px;
 }

@@ -15,6 +15,10 @@
     .container {
       margin: 0 auto; } }
 
+img {
+  width: 100%;
+  height: auto; }
+
 .header {
   padding: 26px 0 157px 0;
   height: 800px;
@@ -67,7 +71,9 @@
 
 .main__image {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 132.22px;
+  height: 119px; }
 
 .main__title {
   font-size: 28px;
@@ -118,8 +124,8 @@
           justify-content: space-between; }
 
 .catalog__item {
-  width: 262px;
-  height: 240px;
+  width: 23%;
+  max-height: 240px;
   padding: 10px 8px 19px 8px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
@@ -128,10 +134,9 @@
   margin: 0 0 29px 0; }
 
 .catalog__item h2 {
-  font-weight: 600;
   font-size: 14px;
-  line-height: 22px;
-  /* or 157% */
+  line-height: 24px;
+  font-weight: 600;
   max-width: 187px;
   text-align: center;
   margin: 0 auto;
@@ -260,9 +265,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .certificates__info {
   width: 528px;
@@ -290,7 +295,8 @@
   vertical-align: top; }
 
 .achievement__img img {
-  vertical-align: top; }
+  height: 84px;
+  margin-bottom: 16px; }
 
 .achievement__text {
   font-size: 12px;
@@ -299,8 +305,8 @@
   max-width: 262px;
   color: #00519C; }
 
-.receipes__item-img {
-  padding-bottom: 18px; }
+.certificates__achievement {
+  width: 51%; }
 
 .geodata {
   background: url("../../images/bg.jpg") center center/cover no-repeat;
@@ -323,27 +329,23 @@
 .geodata__title {
   width: 736px;
   margin: 0 auto;
-  font-weight: 300;
-  font-size: 36px;
-  line-height: 44px;
   text-align: center;
-  padding-bottom: 14px;
+  padding-bottom: 29px;
   color: #00519C; }
 
 .geodata__item {
-  width: 263px;
+  width: 22%;
   height: 120px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
           box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
   border-radius: 10px;
-  margin-bottom: 15px;
-  padding: 15px 0 0 18px; }
+  margin-bottom: 20px;
+  padding: 15px 10px 0 18px; }
   .geodata__item-title {
-    font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
+    font-weight: 500;
     color: #00519C; }
   .geodata__item-text {
     font-weight: normal;
@@ -450,12 +452,15 @@
   color: #00519C; }
 
 .markets__info {
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
+  font-weight: normal;
   margin-left: 37px;
   color: #000000; }
+
+.markets__img img {
+  width: 518px;
+  height: 371px; }
 
 .news {
   padding-bottom: 80px; }
@@ -544,6 +549,14 @@
       -ms-flex-align: center;
           align-items: center; }
 
+.footer__logo-kosher {
+  width: 58px;
+  height: 58px; }
+
+.footer__logo-fish {
+  width: 67px;
+  height: 61px; }
+
 .footer__logo img {
   margin-right: 13px; }
 
@@ -566,6 +579,8 @@
   color: #00519C; }
 
 .footer__icons img {
+  width: 41px;
+  height: 41px;
   margin-right: 24px; }
 
 .footer__copyright {
